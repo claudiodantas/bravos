@@ -1,0 +1,195 @@
+#principal {
+	height: 100%;
+    background: url("../images/background.jpeg") bottom ;
+    background-size: cover; /*isso deixa a imagem completa*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+   /* /*background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
+	background-image: url("https://4.bp.blogspot.com/-PqG8_WeTE4I/W9yuqdlrPTI/AAAAAAADl8c/lf23sSS1omAHsMD1g6BnJ129sCV3O052wCLcBGAs/s1600/bravos%2Bfoto%2B2.jpg");
+	position: fixed;*/
+}
+
+a:hover {
+    font-size: 17px;
+}
+
+#peca-agora-div {
+    padding: 30px 0px 5px;
+}
+
+#capa {
+    height: 100%;
+    width: 100%;
+}
+
+#logoBravos {
+    width: 350px;
+}
+
+/*-------Botão Peça agora!--------*/
+#peca-agora {
+    color: #303030;
+    background-color: #ffbd4a;
+    font-family: "londrinasolid-regular";
+    padding: 4px 12px 4px 12px;
+    border: 2px solid #ffbd4a;
+    border-radius: 5px;
+    font-size: 23px;
+    /*width: auto;*/
+}
+
+/*#peca-agora:hover{
+    padding: 6px 14px 6px 14px;
+}*/
+
+#peca-agora:hover{
+color: white;
+cursor: pointer;
+}
+
+/*Imagem de fundo*/
+/*#fundo-externo {
+    overflow: hidden;  para que não tenha rolagem se a imagem de fundo for maior que a tela 
+    width: 100%;
+    height: 100%;
+    /*position: relative;  criamos um contexto para posicionamento */
+/*}*/
+
+/*#fundo {
+    position: fixed;  posição fixa para que a possível rolagem da tela não revele espaços em branco 
+    width: 100%;
+    height: 100%;
+}*/
+
+/*#fundo img {
+    width: 100%;  com isso imagem ocupará toda a largura da tela. Se colocarmos height: 100% também, a imagem irá distorcer 
+    position: fixed;
+    shad
+}*/
+
+body {
+    background-color: #303030;
+}
+
+.nav-item {
+    color: #fff;
+    font-family: "londrinasolid-fina";
+    font-size: 15px;
+    line-height: 1.2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    /*padding: 0 12px;*/
+    
+}
+
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff; 
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: rgba(30, 30, 30, 0.85);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #fff;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+.nav-item .dropdown {
+    box-sizing: border-box;
+    display: list-item;
+    float: none;
+    line-height: 1.2px;
+    position: static;
+    z-index: auto;
+    top: 0;
+}
+
+.dropdown-menu {
+    background: none;
+    border: none;
+}
+
+.dropdown-item {
+    background: none;
+    color: #fff;
+    padding: 15px;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+    background: rgba(30, 30, 30, 0.3);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* FONTES */
+
+@font-face {
+     font-family: "londrinasolid-fina";
+     src: url('./fonts/Londrina_Solid/LondrinaSolid-Thin.ttf');
+}
+
+@font-face {
+     font-family: "londrinasolid-black";
+     src: url('./fonts/Londrina_Solid/LondrinaSolid-Black.ttf');
+}
+
+@font-face {
+     font-family: "londrinasolid-regular";
+     src: url('./fonts/Londrina_Solid/LondrinaSolid-Regular.ttf');
+}
+
+
+
