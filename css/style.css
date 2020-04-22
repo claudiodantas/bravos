@@ -1,5 +1,16 @@
 /*-----------------Elementos principais-----------------*/
 
+
+/*------------------CAPA------------------*/
+
+body {
+    background-color: #303030;
+}
+
+a:hover {
+    font-size: 17px;
+}
+
 #principal {
 	height: 100%;
     background: url("../images/background.jpeg") bottom ;
@@ -11,10 +22,6 @@
     position: relative;
     box-sizing: border-box;
 
-}
-
-a:hover {
-    font-size: 17px;
 }
 
 #peca-agora-div {
@@ -47,16 +54,11 @@ cursor: pointer;
 }
 
 
-body {
-    background-color: #303030;
-}
-
-
 /*--------------------Nav-bar--------------------*/
 
 .nav-item {
     color: #fff;
-    font-family: "londrinasolid-fina";
+    font-family: "londrinasolid-thin";
     font-size: 15px;
     line-height: 1.2px;
     text-transform: uppercase;
@@ -151,11 +153,78 @@ body {
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/*------------Seção 2------------*/
 
-/*--------------------Fontes--------------------*/
+.section2 {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding-top: 20px;
+}
 
+.fa, .far, .fas {
+    font-size: 40px;
+}
+
+.section2 h3 {
+    margin-bottom: 35px;
+}
+
+.section2 h4{
+    font-family: "dosis-regular";
+    font-size: 35px;
+    line-height: 45px;
+    color: #303030;
+    margin-bottom: 35px;
+}
+}
+
+.section2 h6 {
+    font-family: "dosis-bold";
+    font-size: 14px;
+    line-height: 21px;
+    color: #303030;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.section2 i {
+    margin-bottom: 20px;
+}
+
+.section2 p {
+    font-family: "open-sans-regular";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+}
+
+.section2 .col-lg-4 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.esquerda {
+    padding-left: 132px;
+    padding-right: 0px;
+}
+
+.direita {
+    padding-right: 132px;
+    padding-left: 0px;
+}
+
+.meio {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+/*--------------------FONTES--------------------*/
+
+/*Londrina*/
 @font-face {
-     font-family: "londrinasolid-fina";
+     font-family: "londrinasolid-thin";
      src: url('./fonts/Londrina_Solid/LondrinaSolid-Thin.ttf');
 }
 
@@ -169,5 +238,22 @@ body {
      src: url('./fonts/Londrina_Solid/LondrinaSolid-Regular.ttf');
 }
 
+/*Dosis*/
+@font-face {
+     font-family: "dosis-bold";
+     src: url('./fonts/Dosis/static/Dosis-Bold.ttf');
+}
+
+@font-face{
+    font-family: "dosis-regular";
+    src: url('./fonts/Dosis/static/Dosis-Regular.ttf');
+}
+
+
+/*Open sans*/
+@font-face {
+     font-family: "open-sans-regular";
+     src: url('./fonts/Open_Sans/OpenSans-Regular.ttf');
+}
 
 
