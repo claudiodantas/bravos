@@ -155,7 +155,7 @@ cursor: pointer;
 
 /*------------Seção 2------------*/
 
-.section2 {
+.section2, .section4, .section5 {
     background-color: #f8f8f8;
     text-align: center;
     padding-top: 20px;
@@ -165,20 +165,15 @@ cursor: pointer;
     font-size: 40px;
 }
 
-.section2 h3 {
-    margin-bottom: 35px;
-}
-
-.section2 h4{
+.section2 h4, .section4 h4, .section5 h4{
     font-family: "dosis-regular";
     font-size: 35px;
     line-height: 45px;
     color: #303030;
     margin-bottom: 35px;
 }
-}
 
-.section2 h6 {
+.section2 h6, .section3 h6 {
     font-family: "dosis-bold";
     font-size: 14px;
     line-height: 21px;
@@ -204,20 +199,76 @@ cursor: pointer;
     padding-top: 10px;
 }
 
-.esquerda {
-    padding-left: 132px;
-    padding-right: 0px;
+
+/*------------Seção 3------------*/
+
+.section3 {
+    background-image: url("../images/pedra-do-bravo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.direita {
-    padding-right: 132px;
-    padding-left: 0px;
+.section3 h4 {
+    font-family: "dosis-regular";
+    font-size: 35px;
+    line-height: 45px;
+    color: #f8f8f8;
+    font-weight: 900;
+    margin-bottom: 0px;
+
+    text-shadow: 0 0 20px black, 0 0 20px #f8f8f8;
 }
 
-.meio {
-    padding-left: 70px;
-    padding-right: 70px;
+.section3 h6 {
+    color: #f8f8f8;
+    text-shadow: 0 0 20px black, 0 0 20px #f8f8f8;
 }
+
+.section3 p {
+    font-family: "dosis-regular";
+    letter-spacing: 0.7px;
+    color: #f8f8f8;
+    text-shadow: 0 0 20px black, 0 0 20px #f8f8f8;
+}
+
+
+.section3 img {
+    margin: 50px;
+}
+
+.section3 .rounded-circle {
+    border: solid 3px;
+    border-color: #ffbd4a;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 1px black;
+}
+
+.section3 .col-lg-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*------------Seção 4------------*/
+.section4 {
+    background-color: white;
+}
+
+
+/*------------Seção 5------------*/
+.section5 {
+    background: #303030;
+}
+
+.section5 div h4 {
+    color: #f8f8f8;
+}
+
 
 
 /*--------------------FONTES--------------------*/
