@@ -155,10 +155,12 @@ cursor: pointer;
 
 /*------------Seção 2------------*/
 
-.section2, .section4, .section5 {
+.section2, .section5 {
     background-color: #f8f8f8;
     text-align: center;
     padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .fa, .far, .fas {
@@ -173,7 +175,7 @@ cursor: pointer;
     margin-bottom: 35px;
 }
 
-.section2 h6, .section3 h6 {
+.section2 h6, .section3 h6, .section5 h6 {
     font-family: "dosis-bold";
     font-size: 14px;
     line-height: 21px;
@@ -187,7 +189,7 @@ cursor: pointer;
     margin-bottom: 20px;
 }
 
-.section2 p {
+.section2 p, .section5 p {
     font-family: "open-sans-regular";
     font-size: 14px;
     font-weight: normal;
@@ -257,17 +259,49 @@ cursor: pointer;
 /*------------Seção 4------------*/
 .section4 {
     background-color: white;
+    text-align: center;
+    padding-top: 20px;
+
 }
 
 
 /*------------Seção 5------------*/
 .section5 {
-    background: #303030;
+    background: #f8f8f8;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .section5 div h4 {
-    color: #f8f8f8;
+    color: #2e2e2e;
 }
+
+.section5 h6 {
+    padding-top: 15px;
+}
+
+/*------------Seção 6------------*/
+.section6 {
+    background-color: white;
+    color: #303030;
+    text-align: center;
+}
+
+.section6 h4 {
+    font-family: "open-sans-regular";
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: normal;
+
+    margin-top: 10px;
+
+}
+
+/*------------Whats-------------*/
+.whats img{
+
+}
+
 
 
 
